@@ -149,10 +149,9 @@ void AccountListPage::on_actionAddOffline_triggered()
 {
     if (!m_accounts->anyAccountIsValid()) {
         QMessageBox::warning(this, tr("Error"),
-                             tr("You must add a Microsoft account that owns Minecraft before you can add an offline account."
+                             tr("U dont have m$ account broo babyrage."
                                 "<br><br>"
-                                "If you have lost your account you can contact Microsoft for support."));
-        return;
+                                "You can add offline account anyway. :)"));
     }
 
     MinecraftAccountPtr account =
